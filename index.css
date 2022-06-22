@@ -58,6 +58,7 @@ p{ margin: 0;}
 }
 
 
+
 .p-bold{
     
    
@@ -74,6 +75,25 @@ p{ margin: 0;}
     
 
     font-family: 'Poppins-Medium', sans-serif;
+    
+}
+
+@media screen and (min-width:700px) {
+    .p-bold{
+      font-size: x-large;
+      margin: 10px;
+        font-weight:bold;
+        font-family: 'Poppins-Bold', sans-serif;
+    }
+    .small-text{
+      padding: 5px;
+        font-size:large;
+       font-weight: 400;
+       margin: 2px;
+   
+       font-family: 'Poppins-Medium', sans-serif;
+       
+   }
     
 }
 
@@ -102,7 +122,15 @@ p{ margin: 0;}
     display: table-cell;
     vertical-align:middle;
      font-size:x-small;
+     font-family: 'Poppins-Medium',sans-serif;
 }
+
+ @media screen and (min-width:700px) {
+    .align{
+        font-size: medium;
+    }
+    
+ }
 .hulu{
     text-align: center;
     font-family: 'Poppins-Bold' , sans-serif;
